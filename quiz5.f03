@@ -15,7 +15,7 @@ PROGRAM matmult
 	! They represent the dimensions of the arrays
 	! The first array will be dimension L x M, the second will be M x N
 	! and the product array, L x N
-	PRINT*, "Enter three integers"
+	PRINT*, "Enter array dimensions"
 	READ(*,*)l,m,n
 		
 	! Allocate the 3 arrays of the correct size
